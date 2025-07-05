@@ -16,7 +16,7 @@ A RESTful API for tracking personal expenses and income with user authentication
 1.  **Clone the repository:**
 
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/bhuwanshrestha1/Expense-Tracker-API.git
     cd expense_tracker
     ```
 
