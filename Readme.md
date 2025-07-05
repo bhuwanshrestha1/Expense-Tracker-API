@@ -86,18 +86,14 @@ curl -X POST http://127.0.0.1:8000/api/auth/register/ \
 "password": "strongpassword123"
 }'
 
-```
-
 **2. Login to get tokens:**
 
 curl -X POST http://127.0.0.1:8000/api/auth/login/ \
 -H "Content-Type: application/json" \
 -d '{
-    "username": "newuser",
-    "password": "strongpassword123"
+"username": "newuser",
+"password": "strongpassword123"
 }'
-
-```
 
 **3. Create a new expense (with token):**
 
@@ -112,11 +108,7 @@ curl -X POST http://127.0.0.1:8000/api/expenses/ \
 "tax_type": "flat"
 }'
 
-```
-
 **4. List all your expenses (with token):**
 
 curl -X GET http://127.0.0.1:8000/api/expenses/ \
 -H "Authorization: Bearer <your_access_token>"
-
-```
